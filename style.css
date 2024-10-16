@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "EB Garamond", serif;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.logo{
+width: 200px;
+}
+.list-items{
+    list-style: none;
+    display: inline;
+    margin: 0px 20px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size:20px;
+}
+.links:hover{
+    color: #1f4673;
+    text-decoration: underline;
+}
+.home-content{
+    margin: 13% 0% 0% 8%;
+}
+#username{
+    font-size: 100px;
+    margin-bottom: 20px;
+    font-family:'Qwitcher Grypen';
+    color:#1f4673;
+    animation: animate__rubberBand;
+}
+}
+#paragraph{
+    line-height: 1.5;
+    font-size: 15px;
+    font-weight: 600;
+}
+#Order{
+    text-decoration: none;
+    background-color: rgb(30, 69, 118);
+    color: beige;
+    padding: 10px;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    line-height: 3;
+    
+}
+.home-img{
+    width: 45%;
+    height: 75%;
+    position: absolute;
+    bottom: 0px;
+    right: 30px;
+}
+.group1{
+    position: absolute;
+    height: 100%;
+    bottom: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: bottom 2s,left 1s;
+}
+.home-img:hover #shape{
+    bottom: 70px;
+}
+.home-img:hover #chef{
+    left:40%;
+}
+#about{
+    margin: 20% 0px 0px 8%;
+}
+.sectionhead{
+    text-align: center;
+}
+.mainhead{
+    font-size: 30px;
+}
+.subhead{
+    font-size: 20px;
+    color: #1f4673;
+}
+.about-body{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid: 30px;
+    align-items: center;
+}
+.img{
+    width: 85%;
+}
+.aboutcontent{
+    text-align: center;
+    font-size: 100%;
+    text-align: justify;
+}
+.information{
+    margin-top: 1.3cm;
+    line-height: 2cm;
+}
+.infobox{
+    display: flex;
+    align-items: center;
+    line-height: 2cm;
+}
+.infobox>span{
+    margin-left: 1rem;
+}
+/skill section styling/
+
+#Cakes{
+    margin:8% 8% 0 8%;
+}
+.skillContents{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:50px;
+    margin-top:20px;
+}
+.skillImages{
+    width: 50%;
+}
+.bars{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    padding:1rem 0px;
+}
+.barHead,.barPercent{
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.baseBar{
+    width: 100%;
+    height: 0.5rem;
+    background-color:black;
+    border-radius:10px;
+    position:absolute;
+    bottom:0;
+} 
+.htmlBar{
+    background-color: rgb(241, 128, 16);
+    width:90%;
+}
+.cssBar{
+    background-color:  rgb(241, 128, 16);
+    width:75%;
+}
+.jsBar{
+    background-color:  rgb(241, 128, 16);
+    width:50%;
+}
+.reactBar{
+    background-color:  rgb(241, 128, 16);
+    width:15%;
+}
+
+/* contact section styling */
+
+#contact{
+    margin:8% 8% 0 8%;
+}
+.iconCollections{
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    /* border:solid 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0 10px;
+}
+.brands{
+    color:black;
+    font-size: 2rem;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right,red,orange,yellow);
+}
+.icon:hover .brands{
+    color:white;
+    /* animation */
+    animation:rotate 3s;
+}
+@keyframes rotate {
+
+    0%{
+        transform: rotate(30deg);
+    }
+    25%{
+        transform: rotate(-30deg);
+    }
+    50%{
+        transform: rotate(30deg);
+    }
+    75%{
+        transform: rotate(-30deg);
+    }
+    100%{
+        transform: rotate(30deg);
+    }
+    
+}
+
+/* footer section styling */
+footer{
+    margin-top: 8%;
+}
+#copyright{
+    text-align: center;
+    font-weight: 700;
+}
+.uparrow{
+    float: right;
+    margin-top:-40px;
+}
+html{
+    scroll-behavior: smooth;
+}
