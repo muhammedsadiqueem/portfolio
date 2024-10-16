@@ -2,3 +2,8 @@
 -netlify
 -github
 -vercel
+
+-----------------------
+GIT AND github
+-----------------------
+
